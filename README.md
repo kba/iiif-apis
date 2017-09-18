@@ -33,7 +33,7 @@ To use the module, first add it to your project's Maven or Gradle configuration:
 </dependency>
 ```
 
-```scala
+```gradle
 dependencies {
     compile 'de.digitalcollections.iiif.iiif-apis:0.1.0-SNAPSHOT'
 }
@@ -128,5 +128,5 @@ String json = iiifMapper.writerWithDefaultPrettyPrinter().writeValueAsString(can
 ```
 
 For more information on how to use the API, consult the [API documentation](TODO) and the [comprehensive
-test suite](TODO). Since the large majority of the tests are based on the examples from the specifications,
+test suite](https://github.com/dbmdz/iiif-apis/tree/master/src/test/java/de/digitalcollections/iiif/model). Since the large majority of the tests are based on the examples from the specifications,
 they should be very easy to follow along.
